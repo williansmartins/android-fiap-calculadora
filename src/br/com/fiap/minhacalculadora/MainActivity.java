@@ -32,7 +32,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
 		AlertDialog.Builder builder = new AlertDialog.Builder(
 				getApplicationContext());
-		builder.setTitle("Resulado da soma");
+		builder.setTitle("Resulado da soma!");
 		builder.setPositiveButton("Ok", null);
 		builder.setMessage("Resultado da soma: " + (a + b));
 
